@@ -297,6 +297,21 @@ Write an if statement that prints out what decade of life someone is in (e.g "Yo
 let nameAndBirthYear: (String, Int)
 
 Answer: 
+Else/If:
+var name = "Casandra"
+var birthYear = 1993
+let nameAndBirthYear = (name: "Casandra", birthyear: 1993)
+
+if birthYear < 2000 && birthYear > 1989 {
+    print("You are in your twenties")
+} else {
+    print("You are not in your twenties")
+}
+
+Switch:
+
+if nameAndBirthYear =
+
 let nameAndBirthYear = (name: "Casandra", birthyear: 1993)
 switch nameAndBirthYear {
 case (_, 1990...1999) :
