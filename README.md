@@ -391,10 +391,11 @@ a.
 let myTupleSum = ((myTuple.0)+(myTuple.1))
 print(myTupleSum >= 15 ? "my tuple sum is at least 15" : "my tuple sum is less than 15")
 b.
-if myTupleSum >= 15 {
-    print("my tuple sum is at least 15")
-} else {
-    print("my tuple sum is less than 15")
+switch myTupleSum {
+case 0...15 :
+print("my tuple sum is at least 15")
+default:
+print("my tuple sum is less than 15")
 }
 ```
 ***
